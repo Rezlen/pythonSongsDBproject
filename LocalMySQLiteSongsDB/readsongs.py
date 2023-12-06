@@ -5,10 +5,8 @@ def read_songs():
 
     # select all records from songs
     dbCursor.execute("SELECT * FROM songs")
-
     #fetch/get all songs from the songs table
     allRecords = dbCursor.fetchall()
-
 
 # 'method2'
 # allRecords = dbCursor.execute('select * from dongs').fetchall()

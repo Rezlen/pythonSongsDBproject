@@ -31,3 +31,5 @@ dbCursor.execute("""
     FOREIGN KEY("SongID") REFERENCES "songs"("SongID"),
     FOREIGN KEY("MemberID") REFERENCES "members"("MemberID")
 )""")
+
+

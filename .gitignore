@@ -66,3 +66,5 @@ cred.env
 
 # dotenv environment variables file
 .env
+# CA certificate
+cacert.pem
