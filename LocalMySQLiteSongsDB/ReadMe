@@ -1,11 +1,22 @@
 # Challenge; two separate servers
-it is a challenge for every developer to connect a remote MySql database to a remote web server. I just managed to do so by having & customizing PlanetScale https://planetscale.com/ MySql database Connect it to server https://app.netlify.com/
+  it is a challenge for every developer to connect a remote MySql database to a remote web server. I just managed to do so by having & customizing PlanetScale https://planetscale.com/ MySql database Connect it to server https://app.netlify.com/
 
 # Integration into my VScode
-Interestingly I have setup a live PlanetScale Database terminal called: PSCALE right in my VSCode so I can modify everything live from my VScode while committing/sending everything to GitHub (https://github.com/Rezlen/pythonSongsDBproject) immediately with a press of button.
+  Interestingly I have setup a live PlanetScale Database terminal called: PSCALE right in my VSCode so I can modify everything live from my VScode while committing/sending everything to GitHub (https://github.com/Rezlen/pythonSongsDBproject) immediately with a press of button.
 
 # Cost
-The very interesting point is that both PlanetScale & Netlify are free! 
+  The very interesting point  is that both PlanetScale & Netlify are free! 
 
 # PYscript for front end website
-Here I have used the one year old PYscript for marrying the Python code to HTML CSS so the code is usable live & for members of public: https://python-songs-db.netlify.app PyScript is frontend language replacing & simplifying Python's Flask for front end
+  Here I have used the one year old PYscript for marrying the Python code to HTML CSS so the code is usable live & for members of public: https://python-songs-db.netlify.app PyScript is frontend language replacing & simplifying Python's Flask for front end
+
+# connection VScode terminal steps:
+  to connect to planetScale MySql datbase from pscale terminal in VScode:
+  cd C:\Users\sohei\scoop\apps\pscale\current 
+  .\pscale.exe shell
+  .\pscale.exe shell portfoliowebsite
+  .\pscale.exe database list
+  .\pscale.exe shell <db name>
+
+  # Installing PYscript
+  

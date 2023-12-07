@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sings App</title>
+  <link rel="Songs Database Display" href="RemoteDBserverSongsDB\menuRemote.py" >
+  <link rel="stylesheet" type="text/css" href="index.css">
+  
+  <!-- //connecting Python to this page by following two lines(Link & Script) -->
+  <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+  <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+
+</head>
+<body >
+  <div class="MainDiv" >
+    <h1> My Songs  </h1>
+    <iframe src=" https://replit.com/@Soheily/dfe1App?embed=true" frameborder="'10" height="500px" width="500px" > </iframe> 
+    <!-- I got the link from where I put all m code here: https://replit.com/@Soheily/dfe1App#main.py -->
+
+    <!-- Python section in HTML using PyScript -->
+    <div class="MainDiv">
+    
+      <h1>Polyglot 🦜 💬 🇬🇧 ➡️ 🏴‍☠️</h1>
+      <p>Enter an option's number to work with the songsDatabase tables ...</p>
+      <input type="text" id="typeAnswer" placeholder="Type English here..." />
+      <button py-click="SongsFunction">Submit</button>
+      <div id="output"></div>
+      <script type="py" src="./test.py" config="./pyscript.json"></script>
+    
+      <script type="py"  terminal>
+        from pyscript import display
+        from js import requestAnimationFrame, console
+        console.log('helooooo')
+
+        display("Hello World!") # this goes to the DOM
+        print("Hello terminal") # this goes to the terminal
+        
+        text = 'testing'
+        x=4
+
+        display(
+          "Hello World!",
+          text,
+          x+2,
+        )
+      </script>
+    
+    </div>
+  </div>
+
+
+
+</body>
+</html>
+
+<!-- to see the whole project running go here;  -->

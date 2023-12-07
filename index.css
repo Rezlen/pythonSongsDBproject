@@ -1,0 +1,9 @@
+
+.MainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
